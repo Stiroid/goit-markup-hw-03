@@ -455,8 +455,11 @@ p {
   width: 1170px;
 }
 
-.main-content .flex-element {
-  border-bottom: 1px solid #eeeeee;
+.main-content .main-content-footer {
+  border-bottom: 1px inset #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  background-color: var(--hero-text-color);
 }
 
 .flex-element:not(:nth-child(3n)) {
@@ -478,3 +481,13 @@ p {
 .flex-element:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
+
+.main-content-footer{
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  
+}
+
+
+ 
