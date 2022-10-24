@@ -42,7 +42,7 @@ ul {
 
 .page {
   font-family: roboto, sans-serif;
-  /* background-color: var(--main-background-color); */
+  
 }
 
 .container {
@@ -178,15 +178,32 @@ p {
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 106px;
+  /* padding-top: 106px; */
 }
 
 .hero {
   background-color: var(--hero-background-color);
   text-align: center;
-  height: 600px;
+  /* height: 600px; */
   margin-top: 0;
   margin-bottom: 0;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+  main .section {
+  padding-top: 0px;
+  padding-bottom: 0px; 
+} 
+
+  /* main .hero {
+  padding-bottom: 0;
+}   */
+
+.hero button {
+  width: 216px;
+  height: 50px;
+  margin-top: 30px;
 }
 
 .section {
@@ -208,7 +225,7 @@ p {
   display: flex;
   padding-left: 0;
   padding-right: 0;
-  margin: 0;
+  margin: 94px 0px ;
 }
 
 .feautures-item {
@@ -229,8 +246,8 @@ p {
   color: var(--title-text-color);
   text-align: center;
   margin-bottom: 50px;
-  margin-top: -94px;
-  padding-top: 0;
+  margin-top: 94px;
+  padding-top: 94px;
 }
 
 .what-we-do-list li {
@@ -254,11 +271,14 @@ p {
 
 /* OUR TEAM */
 
+
+
 .our-team li {
   display: inline-block;
   align-items: baseline;
   margin-left: 0;
   margin-right: 0;
+  padding-bottom: 94px;
 }
 
 .our-team li:not(:first-child) {
@@ -270,17 +290,17 @@ p {
   margin-bottom: 0;
 }
 
-.our-team h3 {
-  margin-top: 30px;
+.our-team-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
-  margin-bottom: 0;
 }
 
-.our-team p {
-  margin-top: 10px;
-  text-align: center;
-  margin-bottom: 0;
+.our-team-title p {
+  padding-top: 10px;
+  
 }
+
 
 .title-name {
   font-weight: 500;
@@ -311,9 +331,7 @@ p {
   font-family: roboto;
   background-color: var(--hero-background-color);
   margin-top: 20px;
-  padding-bottom: 60px;
-  width: 230px;
-  height: 80px;
+ 
 }
 
 .page-down {
@@ -322,10 +340,10 @@ p {
   background-color: var(--hero-background-color);
 }
 
-.page-down .section {
+ .page-down {
   padding-top: 60px;
-  padding-bottom: 0px;
-}
+  padding-bottom: 60px;
+} 
 
 .page-down .logo {
   color: var(--hero-text-color);
@@ -430,7 +448,7 @@ p {
 .navigation {
   display: flex;
   padding-left: 0;
-  padding-top: 0;
+  padding-top: 94px;
   justify-content: center;
   align-items: center;
   margin-top: 0;
@@ -452,6 +470,7 @@ p {
   flex-wrap: wrap;
   padding-left: 0;
   padding-right: 0;
+  padding-bottom: 94px;
   width: 1170px;
 }
 
