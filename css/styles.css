@@ -296,6 +296,13 @@ p {
   text-align: center;
 }
 
+.our-team-title {
+  border-bottom: 1px inset #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  background-color: var(--hero-text-color);
+}
+
 .our-team-title p {
   padding-top: 10px;
   
