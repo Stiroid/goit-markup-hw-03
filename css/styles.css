@@ -3,7 +3,7 @@ html {
 }
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 h1,
@@ -50,8 +50,8 @@ ul {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
 }
 
 .site-nav {
@@ -97,13 +97,14 @@ ul {
   border-bottom: 1px solid #ececec;
 }
 
-.top-section  {
+.top-section .container {
   background-color: var(--top-background-color);
   display: flex;
   align-items: center;
   height: 80px;
   padding-top: 0;
   padding-bottom: 0;
+  
 }
 
 .section.hero {
@@ -243,14 +244,10 @@ background-color:var(--hero-text-color);
   color: var(--title-text-color);
   text-align: center;
   margin-bottom: 50px;
-  /* margin-top: 94px;
-  padding-top: 94px; */
+ 
 }
 
-/* .section:nth-child(2n+1) {
-  background-color: tomato;
-  
-} */
+
 
 .what-we-do-list li {
   display: inline-block;
@@ -280,7 +277,7 @@ background-color:var(--hero-text-color);
   align-items: baseline;
   margin-left: 0;
   margin-right: 0;
-  padding-bottom: 94px;
+  
 }
 
 .our-team li:not(:first-child) {
@@ -383,7 +380,7 @@ background-color:var(--hero-text-color);
 
 .location .link {
   color: var(--top-background-color);
-  width: 230px;
+  
   margin-right: 0;
 }
 
